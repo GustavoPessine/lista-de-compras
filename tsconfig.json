@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+    "lib": ["es2015", "dom"],
+      "target": "es5",
+      "module": "commonjs",
+      "rootDir": "./src", // Defina um diretório para seus arquivos TypeScript
+      "outDir": "./dist", // Onde os arquivos compilados serão colocados
+      "strict": true // Ativa todas as verificações de tipo
+    },
+    "include": [
+      "src/**/*.ts" // Inclui todos os arquivos TypeScript na pasta src
+    ],
+    "exclude": [
+      "node_modules" // Exclui a pasta node_modules
+    ]
+  }
